@@ -56,10 +56,10 @@ byte smoothStep = SMOOTH_STEPS;
 
 void setup(){
     // Init UDP
-    client.begin(SERVER_PORT);
+    client.begin(MULTICAST_PORT);
     
     // Join Orb multicast group
-    client.joinMulticast(multicastIP);
+    client.joinMulticast(MULTICAST_IP);
     
     // Init leds
     strip.begin();
