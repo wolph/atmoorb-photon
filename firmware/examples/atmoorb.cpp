@@ -38,7 +38,7 @@
  * END SETTINGS
  */
 
-#include "neopixel/neopixel.h"
+#include "atmoorb/atmoorb.h"
 #define RED 0
 #define GREEN 1
 #define BLUE 2

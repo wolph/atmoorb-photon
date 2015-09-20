@@ -2,7 +2,7 @@
   "name": "atmoorb",
   "author": "Wolph",
   "license": "GNU GPLv3",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "An Implementation of the AtmoOrb client Spark Photon",
   "namespace": "wolph"
 }
